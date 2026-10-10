@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <h2 class="logo">Collie<span>Portfolio</span></h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a class="active" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="page-section">
+    <h1>Contact <span>Me</span></h1>
+    <p class="section-intro">Have a question or project idea?
+       I'd be happy to hear from you.</p>
+
+    <div class="contact-layout">
+        <div class="contact-info">
+            <h2>Let's Talk</h2>
+            <p><strong>Email:</strong><br>
+                collieoroni99@gmail.com</p>
+            <p><strong>Phone:</strong><br>
+                +254 745 038 983</p>
+            <p><strong>Location:</strong><br>
+                Kenya</p>
+        </div>
+
+        <form class="contact-form" action="#" method="post">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name"
+                   placeholder="Enter your name" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email"
+                   placeholder="Enter your email" required>
+
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject"
+                   placeholder="What is your message about?" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5"
+                      placeholder="Write your message here..."
+                      required></textarea>
+
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 Collie Oroni. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
