@@ -411,3 +411,63 @@ footer {
         font-size: 30px;
     }
 }
+```css
+/* Welcome text */
+.welcome {
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+/* Main heading */
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+/* Your name */
+h1 span {
+    font-size: 50px;
+}
+
+/* Job title */
+h3 {
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+/* Description */
+p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+/* Buttons */
+.btn {
+    font-size: 20px;
+    padding: 12px 32px;
+    margin-right: 10px;
+}
+````@media (max-width: 768px) {
+    h1 {
+        font-size: 42px;
+    }
+
+    h1 span {
+        font-size: 46px;
+    }
+
+    h3 {
+        font-size: 26px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .welcome {
+        font-size: 20px;
+    }
+}
+```
